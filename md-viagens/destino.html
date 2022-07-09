@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- Bootstrao Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <!-- CSS DO PROJETO -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- JavaScript Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <title>MD Viagens</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
+      <div class="container py-3">
+        <a href="#" class="navbar-brand primary-color">
+          <img src="./assets/images/logoo.png" alt="logo" class="img-fluid">
+          <span>MD Viagens</span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items" aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation"><i class="bi bi-list"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar-items">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a href="./index.html" class="nav-link primary-color" aria-current="page">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="./destino.html" class="nav-link active primary-color" >Destino</a>
+            </li>
+            <li class="nav-item">
+              <a href="./promocoes.html" class="nav-link primary-color" >Promoções</a>
+            </li>
+            <li class="nav-item">
+              <a href="./contato.html" class="nav-link primary-color" >Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- SLIDER HOME -->
+      <div class="container" id="slider-container" id="home">
+        <div class="carousel slide" id="slider" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" class="active" data-bs-target="#slider" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#slider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./assets/images/home-1.jpeg" alt="image 1" class="d-block w-100">
+              <div class="carousel-caption">
+                <h5>Seja feliz venha viaja conosco.</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/images/home-2.jpeg" alt="image 2" class="d-block w-100">
+              <div class="carousel-caption">
+                <h5>Pronto para ter fazer feliz</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/images/home-3.jpeg" alt="image 3" class="d-block w-100">
+              <div class="carousel-caption">
+                <h5>Sua felicidade em um pisca de olhos</h5>
+              </div>
+            </div>
+          </div>
+          <button type="button" class="carousel-control-prev" data-bs-target="#slider" data-bs-slide="prev"> <i class="bi bi-chevron-compact-left"></i> <span class="visually-hidden">Previous</span>
+          </button>
+          <button type="button" class="carousel-control-next" data-bs-target="#slider" data-bs-slide="next"> <i class="bi bi-chevron-compact-right"></i> <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- Destinos -->
+        <div class="col-12 col-md-10 offset-md-1" id="mini-banners">
+          <div class="row">
+            <div class="col-12 col-md-4">
+              <div class="card text-center">
+                <i class="bi bi-box primary-color"></i>
+                <div class="card-body">
+                  <h5 class="card-title primary-color">Hamburgo, Alemanha.</h5>
+                  <p class="card-text secondary-color">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti ducimus sint non itaque culpa eveniet, optio voluptate cupiditate ab repudiandae sed quisquam facilis totam ipsam rerum nulla nihil, explicabo eius.
+                  </p>
+                  <a href="#" class="btn btn-dark">Saber Mais</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="card text-center">
+                <i class="bi bi-layers primary-color"></i>
+                <div class="card-body">
+                  <h5 class="card-title primary-color">Paraty, Brasil.</h5>
+                  <p class="card-text secondary-color">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti ducimus sint non itaque culpa eveniet, optio voluptate cupiditate ab repudiandae sed quisquam facilis totam ipsam rerum nulla nihil, explicabo eius.
+                  </p>
+                  <a href="#" class="btn btn-dark">Saber Mais</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="card text-center">
+                <i class="bi bi-lightning-charge primary-color"></i>
+                <div class="card-body">
+                  <h5 class="card-title primary-color">Veneza, Itália</h5>
+                  <p class="card-text secondary-color">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti ducimus sint non itaque culpa eveniet, optio voluptate cupiditate ab repudiandae sed quisquam facilis totam ipsam rerum nulla nihil, explicabo eius.
+                  </p>
+                  <a href="#" class="btn btn-dark">Saber Mais</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>
